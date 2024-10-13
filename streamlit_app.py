@@ -1,6 +1,8 @@
 import streamlit as st
-
-st.title("🎈 My new app")
+st.title("🎈 Gael Tomás Pajuelo Canchihuaman")
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    "Primero hijo de sus padres, primer nieto de sus abuelos"
 )
+
+cantidad = st.slider("Selecciona la cantidad")
+st.write(f"La cantidad seleccionada es: {cantidad}")
